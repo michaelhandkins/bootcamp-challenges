@@ -24,19 +24,11 @@ class Stack
     @data = nil
   end
 
-  # Push an item onto the stack
+  # Add an item to the stack
   def push(element)
     @data = LinkedListNode.new(element, @data)
   end
 
-  # Pop an item off the stack.
-  # Remove the last item that was pushed onto the
-  # stack and return it to the user
-  # def pop
-  #   ret = @data.value
-  #   @data = @data.next_node
-  #   ret
-  # end
 end
 
 def reverse_list(list_item)
