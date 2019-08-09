@@ -39,3 +39,4 @@ revlist = reverse_list(node3)
 
 print_values(revlist)
 
+#list reversed
