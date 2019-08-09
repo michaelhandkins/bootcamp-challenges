@@ -17,7 +17,7 @@ def print_values(list_node)
   end
 end
 
-def reverse_list(list_item, previous = nil)
+def reverse_list(list_item, previous=nil)
   original_next_node = list_item.next_node
   list_item.next_node = previous
   if original_next_node
@@ -38,3 +38,4 @@ puts "-------"
 revlist = reverse_list(node3)
 
 print_values(revlist)
+
